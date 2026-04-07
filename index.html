@@ -1,0 +1,153 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moreshwar Mango Shop</title>
+    <style>
+        :root {
+            --orange: #E87F24;
+            --yellow: #FFC81E;
+            --cream: #FEFDDF;
+            --blue: #73A5CA;
+        }* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: var(--cream);
+        color: #333;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                    url('https://images.unsplash.com/photo-1592928302255-39c2d60c0b1c');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        background: var(--yellow);
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    /* ABOUT SECTION */
+    .about {
+        padding: 60px 20px;
+        text-align: center;
+        background: white;
+    }
+
+    .about h2 {
+        color: var(--orange);
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        max-width: 700px;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    /* CAROUSEL */
+    .carousel-section {
+        padding: 60px 20px;
+        background: var(--cream);
+        text-align: center;
+    }
+
+    .carousel-section h2 {
+        color: var(--orange);
+        margin-bottom: 30px;
+    }
+
+    .carousel {
+        display: flex;
+        overflow-x: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .mango-card {
+        min-width: 250px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        padding: 20px;
+    }
+
+    .mango-card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .mango-card h3 {
+        margin-top: 10px;
+        color: var(--blue);
+    }
+
+    /* FOOTER */
+    footer {
+        background: var(--orange);
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+    /* WHATSAPP BUTTON */
+    .whatsapp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #25D366;
+        color: white;
+        padding: 15px 18px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-size: 18px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .whatsapp:hover {
+        background: #1ebe5d;
+    }
+</style>
+
+</head>
+<body><!-- HERO SECTION -->
+<section class="hero">
+    <div>
+        <h1>Moreshwar Mango Shop</h1>
+        <p>Fresh Devgad Hapus Mangoes Delivered to Your Home</p>
+        <a href="#mangoes" class="btn">View Mangoes</a>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about">
+    <h2>About Moreshwar Mango Shop</h2>
+    <p>
+        Moreshwar Mango Shop provides premium
